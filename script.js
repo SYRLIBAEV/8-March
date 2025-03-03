@@ -28,6 +28,8 @@ function createLeaf() {
 
     setTimeout(() => leaf.remove(), 6000);
 }
-
 // Запуск анимации листьев
 setInterval(createLeaf, 400);
+document.getElementById("rsvp-btn").addEventListener("click", function() {
+    alert("🎉 Біз сізді асыға күтеміз! Кездескенше! 💖");
+});
